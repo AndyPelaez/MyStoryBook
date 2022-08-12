@@ -1,5 +1,5 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { MyLabel, Props } from "../../components/MyLabel";
+import { MyLabel, MyLabelProps } from "../../components/MyLabel";
 
 export default {
     title: "Example/MyLabel",

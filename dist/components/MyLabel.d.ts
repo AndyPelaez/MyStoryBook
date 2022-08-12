@@ -1,6 +1,6 @@
 /// <reference types="react" />
 import "./mylabel.css";
-export interface Props {
+export interface MyLabelProps {
     /**
      *Este es el mensaje a mostrar en la etiqueta
      */
@@ -22,4 +22,4 @@ export interface Props {
      */
     fontColor?: string;
 }
-export declare const MyLabel: ({ label, size, allCaps, color, fontColor, }: Props) => JSX.Element;
+export declare const MyLabel: ({ label, size, allCaps, color, fontColor, }: MyLabelProps) => JSX.Element;

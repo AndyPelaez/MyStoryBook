@@ -1,6 +1,6 @@
 import "./mylabel.css";
 
-export interface Props {
+export interface MyLabelProps {
   /**
    *Este es el mensaje a mostrar en la etiqueta
    */
@@ -30,7 +30,7 @@ export const MyLabel = ({
   allCaps,
   color,
   fontColor,
-}: Props) => {
+}: MyLabelProps) => {
   const text = allCaps && label ? label.toUpperCase() : label;
 
   return <span className={`label ${size} text-${color}`} style={{color:fontColor}}>{text} </span>;
